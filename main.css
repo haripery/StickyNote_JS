@@ -1,0 +1,143 @@
+/* colors */
+	#header,
+	#footer {
+		background-color: #f1f1f1;
+	}
+
+	#main-wrap {
+		background-color: #D9D9D9;
+	}
+
+	#sidebar {
+		background-color: #d2d2d2;
+	}
+
+	#content-wrap {
+		background-color: #c5c5c5;
+	}
+
+/* sizes */
+	#main-wrap > div {
+		min-height: 450px;
+	}
+
+
+	#header,
+	#footer {
+		min-height: 40px;
+	}
+    #main-wrap > div { min-height: 450px; }
+
+
+	#header,
+	#footer {
+	    min-height: 40px;
+        margin: auto;
+	}
+
+/* layout */
+	#main-wrap {
+	    /* overflow to handle inner floating block */
+	    overflow: hidden;
+	}
+
+	#sidebar {
+	    float: left;
+	    width: 15%;
+
+
+	}
+
+	#content-wrap {
+	    float: right;
+	    width: 85%;
+	}
+
+
+    h1{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    }
+
+    #sticky {
+    font-size: 18px;
+	color: #2980b9;
+	background-color: #f7f7f7;
+    font-family: 'Indie Flower', cursive;
+	padding: 10% 10% 10% 10%;
+        height:200px;
+	box-sizing: border-box;
+	border: 3px solid rgba(0,0,0,0);
+    padding:1em;
+	margin: 0 0 0 0;
+	background: yellow;
+	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+    margin: 0px 0px 0px 0px;
+        width: 100%;
+    }
+
+input:focus{
+	background: yellow;
+	border: 3px solid #2980b9;
+	outline: none;
+}
+#colorButton{
+   margin: 0px 0px 0px 0px;
+    background-color:yellow;
+    padding: 2px 2px 2px 2px;
+    width: 100%;
+
+}
+
+.fa-plus{
+    float: right;
+    padding: 0;
+    margin: 3px 10px 0px 10px;
+}
+
+#pink{
+    background-color: pink;
+    margin: 0 0 0px 0px;
+}
+#orange{
+    background-color: orange;
+    margin: 0 0px 0px 0px;
+}
+#cyan{
+    background-color: rgb(0,255,255);
+    margin: 0 0px 0px 0px;
+}
+
+
+ul li{
+  list-style:none;
+    font-family: 'Indie Flower', cursive;
+    color: #2980b9;
+    box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+
+}
+ul{
+  overflow:hidden;
+  padding:1em;
+}
+
+ul li {
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;
+  height:10em;
+  width:10em;
+  padding:1em;
+
+}
+
+ul li{
+  margin:1em;
+  float:left;
+}
+
+#footer{
+    text-align: right;
+    padding: 0.1% 0.1% 0.1% 0.1%;
+}
